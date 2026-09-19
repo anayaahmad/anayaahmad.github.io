@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anaya Ahmad - Resume</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 20mm 15mm;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Times New Roman', Times, Georgia, serif;
+      color: #111;
+      background: #fff;
+      line-height: 1.35;
+      font-size: 10.5pt;
+      padding: 30px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    @media print {
+      body {
+        padding: 0;
+        max-width: 100%;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
+    .print-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #141F2B;
+      color: #EEF1F4;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 14px;
+    }
+    .print-btn {
+      background: #D9A24B;
+      color: #0F1822;
+      border: none;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .print-btn:hover {
+      background: #e5b05c;
+    }
+    .back-link {
+      color: #EEF1F4;
+      text-decoration: none;
+    }
+    .back-link:hover {
+      color: #D9A24B;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 14px;
+    }
+    .header h1 {
+      font-size: 20pt;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+    }
+    .contact-line {
+      font-size: 10pt;
+    }
+    .contact-line a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1px solid #111;
+      padding-bottom: 2px;
+      margin-top: 14px;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+    p {
+      text-align: justify;
+      margin-bottom: 6px;
+    }
+    .sub-head {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      margin-top: 6px;
+      margin-bottom: 4px;
+      font-size: 10.5pt;
+    }
+    .sub-head .status {
+      font-style: italic;
+      font-weight: normal;
+    }
+    .item-row {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      margin-top: 6px;
+    }
+    .item-row .location-date {
+      font-weight: normal;
+      text-align: right;
+    }
+    .item-sub {
+      font-style: italic;
+      margin-bottom: 4px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 6px;
+    }
+    li {
+      margin-bottom: 2.5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar no-print">
+    <span>Resume Preview &bull; Anaya Ahmad</span>
+    <div>
+      <a href="index.html" class="back-link" style="margin-right: 15px;">&larr; Back to Portfolio</a>
+      <button onclick="window.print()" class="print-btn">Print / Save as PDF</button>
+    </div>
+  </div>
+
+  <header class="header">
+    <h1>ANAYA AHMAD</h1>
+    <div class="contact-line">
+      Islamabad, Pakistan &nbsp;|&nbsp; +92 328 1162762 &nbsp;|&nbsp; <a href="mailto:anaya_.ahmad@outlook.com">anaya_.ahmad@outlook.com</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-title">PROFILE</div>
+    <p>
+      ACCA student with the Applied Knowledge level fully complete and a paper passed at the Applied Skills level. Strong grounding in financial statements, accounting procedures, internal and external reporting, and variance analysis, gained through rigorous professional-qualification study. Detail-oriented and analytical, with a genuine interest in financial management and how strategic decisions and regulatory requirements shape a fortress balance sheet. Eager to contribute to a Global Finance &amp; Business Management team while progressing towards full ACCA qualification.
+    </p>
+  </section>
+
+  <section>
+    <div class="section-title">ACCA QUALIFICATION PROGRESS</div>
+    <div class="sub-head">
+      <span>Applied Knowledge Level</span>
+      <span class="status">Complete</span>
+    </div>
+    <ul>
+      <li>FA1 Recording Financial Transactions — Passed</li>
+      <li>MA1 Management Information — Passed</li>
+      <li>FA2 Maintaining Financial Records — Passed</li>
+      <li>MA2 Managing Costs and Finance — Passed</li>
+      <li>F1 Business Technology — Passed</li>
+      <li>F2 Management Accounting — Passed</li>
+      <li>F3 Financial Accounting — Passed</li>
+    </ul>
+
+    <div class="sub-head">
+      <span>Applied Skills Level</span>
+      <span class="status">In Progress</span>
+    </div>
+    <ul>
+      <li>Audit and Assurance (AA) — Passed</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">EDUCATION</div>
+    <div class="item-row">
+      <span>ASAS International School</span>
+      <span class="location-date">Islamabad, Pakistan</span>
+    </div>
+    <div class="item-row" style="font-weight: normal;">
+      <span class="item-sub">GCE O Levels</span>
+      <span class="location-date">2019 – 2021</span>
+    </div>
+    <p style="font-size: 10pt; margin-top: 2px;">Relevant coursework: Mathematics, Physics, Biology, Chemistry</p>
+
+    <div class="item-row" style="margin-top: 8px;">
+      <span>SKANS School of Accountancy</span>
+      <span class="location-date">Islamabad, Pakistan</span>
+    </div>
+    <div class="item-row" style="font-weight: normal;">
+      <span class="item-sub">Association of Chartered Certified Accountants (ACCA)</span>
+      <span class="location-date">2024 – Present</span>
+    </div>
+
+    <div class="item-row" style="margin-top: 8px;">
+      <span>TMUC Islamabad</span>
+      <span class="location-date">Islamabad, Pakistan</span>
+    </div>
+    <div class="item-row" style="font-weight: normal;">
+      <span class="item-sub">Association of Chartered Certified Accountants (ACCA)</span>
+      <span class="location-date">2025</span>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">RELEVANT ACCOUNTING &amp; FINANCE SKILLS</div>
+    <ul>
+      <li>Financial statement preparation and interpretation</li>
+      <li>Accounting procedures, internal and external reporting</li>
+      <li>Variance analysis and marginal costing</li>
+      <li>Budgeting, forecasting, and performance measurement</li>
+      <li>Bank reconciliations and double-entry bookkeeping</li>
+      <li>Inventory valuation and cost accounting</li>
+      <li>Data interpretation to support business decisions</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">LEADERSHIP &amp; ACTIVITIES</div>
+    <div class="item-row">
+      <span>Student Council, ASAS International School</span>
+      <span class="location-date">Islamabad, Pakistan</span>
+    </div>
+    <ul>
+      <li>Vice President — 2020</li>
+      <li>General Secretary — 2021</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">SKILLS &amp; INTERESTS</div>
+    <p><strong>Technical Skills:</strong> Microsoft Excel, Microsoft Word, Microsoft PowerPoint</p>
+    <p><strong>Language Skills:</strong> English (fluent), Urdu (native)</p>
+    <p><strong>Additional Skills:</strong> Time management, problem solving, decision making, project coordination, public speaking</p>
+  </section>
+
+</body>
+</html>
