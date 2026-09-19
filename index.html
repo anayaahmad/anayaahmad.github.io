@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Morgan | ACCA Student & Aspiring Finance Professional</title>
+  <meta name="description" content="Portfolio of Alex Morgan, an ACCA student targeting roles in financial analysis, corporate finance, valuation, and equity research.">
+  
+  <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sticky Top Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#" class="logo-mark" aria-label="Alex Morgan Portfolio Home">
+        <span class="logo-letters">AM</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#resume" class="btn btn-pill-outline-amber">Resume</a>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section (Background #141F2B) -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="hero-greeting">ACCA Candidate &bull; Aspiring Financial Analyst</span>
+          <h1 class="hero-name">Alex Morgan</h1>
+          <p class="hero-tagline">Bridging rigorous financial accounting with institutional valuation modeling and equity research.</p>
+          
+          <div class="hero-location">
+            <svg class="icon pin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>London, United Kingdom &bull; Open to Global &amp; Remote Opportunities</span>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#portfolio" class="btn btn-pill-primary-amber">View Portfolio</a>
+            <a href="#contact" class="btn btn-pill-outline">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              Email Me
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-pill-outline">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect width="4" height="12" x="2" y="9"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section (Background #0F1822 - Centered Dark Band) -->
+    <section class="section band-section about-section" id="about">
+      <div class="container narrow-container text-center">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+        <p class="about-lead">
+          I am a driven finance professional actively completing the ACCA qualification, blending advanced IFRS accounting standards with practical corporate valuation and quantitative research methods. With a methodical approach to 3-statement financial modeling, variance forecasting, and intrinsic value estimation, I focus on transforming complex balance sheets into actionable investment theses and strategic capital allocation insights for corporate finance, asset management, and advisory environments.
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio Section (Background #141F2B) -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Practical valuation models, equity initiation coverage, and corporate finance case studies.</p>
+        </div>
+
+        <!-- Filter Pill Controls -->
+        <div class="filter-wrapper">
+          <div class="filter-pills" role="tablist" aria-label="Portfolio category filter">
+            <button class="filter-pill active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="filter-pill" data-filter="equity-research" role="tab" aria-selected="false">Equity Research</button>
+            <button class="filter-pill" data-filter="financial-modeling" role="tab" aria-selected="false">Financial Modeling</button>
+            <button class="filter-pill" data-filter="case-studies" role="tab" aria-selected="false">Case Studies</button>
+          </div>
+        </div>
+
+        <!-- Portfolio Cards Grid (3 Columns, 10px radius) -->
+        <div class="portfolio-grid" id="portfolioGrid">
+          
+          <!-- Card 1 -->
+          <article class="portfolio-card" data-category="financial-modeling">
+            <div class="card-top">
+              <span class="card-category-tag">Financial Modeling</span>
+              <span class="status-pill">Not started</span>
+            </div>
+            <h3 class="card-title">DCF &amp; Multi-Scenario LBO Model</h3>
+            <p class="card-desc">Dynamic 5-year discounted cash flow and leveraged buyout model with sensitivity tables on WACC and terminal multiples.</p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="portfolio-card" data-category="equity-research">
+            <div class="card-top">
+              <span class="card-category-tag">Equity Research</span>
+              <span class="status-pill">Not started</span>
+            </div>
+            <h3 class="card-title">Consumer Retail Sector Initiation Report</h3>
+            <p class="card-desc">Comprehensive initiation note evaluating supply chain margin pressures, inventory turnover, and peer comps.</p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="portfolio-card" data-category="financial-modeling">
+            <div class="card-top">
+              <span class="card-category-tag">Financial Modeling</span>
+              <span class="status-pill">Not started</span>
+            </div>
+            <h3 class="card-title">Integrated 3-Statement Forecast Engine</h3>
+            <p class="card-desc">Fully linked income statement, balance sheet, and cash flow model incorporating circular debt and interest schedules.</p>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="portfolio-card" data-category="case-studies">
+            <div class="card-top">
+              <span class="card-category-tag">Case Studies</span>
+              <span class="status-pill">Not started</span>
+            </div>
+            <h3 class="card-title">Cross-Border M&amp;A Accretion / Dilution</h3>
+            <p class="card-desc">Detailed synergy valuation, purchase price allocation, and EPS accretion/dilution analysis under IFRS 3.</p>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="portfolio-card" data-category="equity-research">
+            <div class="card-top">
+              <span class="card-category-tag">Equity Research</span>
+              <span class="status-pill">Not started</span>
+            </div>
+            <h3 class="card-title">Cloud Infrastructure SaaS Unit Economics</h3>
+            <p class="card-desc">Valuation brief tracking net revenue retention, CAC payback dynamics, and EV/NTM revenue benchmark multiples.</p>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="portfolio-card" data-category="case-studies">
+            <div class="card-top">
+              <span class="card-category-tag">Case Studies</span>
+              <span class="status-pill">Not started</span>
+            </div>
+            <h3 class="card-title">Corporate Debt Capacity &amp; Credit Analysis</h3>
+            <p class="card-desc">Covenant headroom stress-testing, credit rating scorecard estimation, and liquidity waterfall breakdown.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section (Background #0F1822 - Centered Dark Band) -->
+    <section class="section band-section resume-section" id="resume">
+      <div class="container narrow-container text-center">
+        <h2 class="section-title">Curriculum Vitae</h2>
+        <div class="section-divider"></div>
+        <p class="resume-intro">
+          Review my academic performance, ACCA exam progression, modeling coursework, and quantitative skill sets in detail.
+        </p>
+        <div class="resume-cta-wrap">
+          <a href="#download-resume" id="downloadResumeBtn" class="btn btn-pill-primary-amber btn-large">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" x2="12" y1="15" y2="3"/>
+            </svg>
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section (Background #141F2B) -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Feel free to reach out directly via email or connect with me on LinkedIn.</p>
+        </div>
+
+        <div class="contact-options-grid">
+          <!-- Email Option Card -->
+          <div class="contact-option-card">
+            <div class="contact-option-icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+            </div>
+            <div class="contact-option-body">
+              <span class="contact-option-label">Email</span>
+              <h3 class="contact-option-title">
+                <a href="mailto:alex.morgan.finance@example.com">alex.morgan.finance@example.com</a>
+              </h3>
+              <p class="contact-option-desc">Drop me a message directly for financial analyst roles, valuation research, or prospective opportunities.</p>
+            </div>
+            <a href="mailto:alex.morgan.finance@example.com" class="btn btn-pill-primary-amber contact-card-btn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              Send Email
+            </a>
+          </div>
+
+          <!-- LinkedIn Option Card -->
+          <div class="contact-option-card">
+            <div class="contact-option-icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect width="4" height="12" x="2" y="9"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </div>
+            <div class="contact-option-body">
+              <span class="contact-option-label">LinkedIn Profile</span>
+              <h3 class="contact-option-title">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexmorgan-finance</a>
+              </h3>
+              <p class="contact-option-desc">Connect on LinkedIn to review my professional background, ACCA qualification progression, and updates.</p>
+            </div>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-pill-outline-amber contact-card-btn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+              View LinkedIn Profile
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dark Footer (Background #0F1822) -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo-mark" aria-label="Alex Morgan Portfolio">
+          <span class="logo-letters">AM</span>
+        </a>
+        <span class="footer-tagline">Alex Morgan &bull; ACCA Student</span>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#about" class="footer-link">About</a></li>
+        <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+        <li><a href="#resume" class="footer-link">Resume</a></li>
+        <li><a href="#contact" class="footer-link">Contact</a></li>
+      </ul>
+
+      <div class="footer-copyright">
+        &copy; <span id="currentYear">2026</span> Alex Morgan. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
